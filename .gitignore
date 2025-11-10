@@ -115,4 +115,7 @@ htmlcov/
 
 # Supervisor logs (for local development)
 *.err.log
-*.out.log
+*.out.log-e 
+# Environment files
+*.env
+*.env.*
