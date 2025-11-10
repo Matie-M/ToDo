@@ -4,8 +4,12 @@ from pymongo import MongoClient
 from pydantic import BaseModel, Field
 from datetime import datetime, timezone
 from typing import Optional, List
+from dotenv import load_dotenv
 import os
 import uuid
+
+# Load environment variables
+load_dotenv()
 
 app = FastAPI()
 
